@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 
 const settingsModel = new mongoose.Schema({
-    broadcastMessage: String,
+  broadcastMessage: String,
 });
 
 module.exports = mongoose.model("Settings", settingsModel);
